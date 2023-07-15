@@ -1053,8 +1053,8 @@ section {
     margin: 1rem 0.5rem;
   }
 }
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 700px) {
   .section {
-    padding: 7rem 6rem;
+    padding: 7rem 3rem;
   }
 }/*# sourceMappingURL=styles.css.map */
