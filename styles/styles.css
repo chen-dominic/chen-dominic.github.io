@@ -472,6 +472,7 @@ section {
   justify-content: center;
 }
 .timeline .timeline-item .tl-icon i {
+  color: #FFFFFF;
   font-size: 1.3rem;
 }
 .timeline .timeline-item .tl-duration {
