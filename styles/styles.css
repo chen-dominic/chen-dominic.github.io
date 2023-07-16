@@ -1077,4 +1077,8 @@ section {
   .contact-content-con .left-contact .contact-icon {
     display: none;
   }
+  .right-contact {
+    padding: 0 !important;
+    font-size: 0.9rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
