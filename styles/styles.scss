@@ -558,13 +558,13 @@ section{
             transition: all .3s ease-in-out;
             h1{
                 font-size: 3rem;
-                color: var(--color-white);
+                color: #FFFFFF;
                 font-weight: 1000;
                 padding: 2rem 0;
             }
             h3{
                 font-size: 1.5rem;
-                color: var(--color-white);
+                color: #FFFFFF;
                 margin-bottom: 1.5rem;
             }
             .icons{
@@ -826,6 +826,7 @@ section{
                 resize: none;
 
             }
+            
         }
         .i-c-2{
             display: flex;
@@ -834,8 +835,40 @@ section{
             }
         }
         .submit-btn{
+
+            border-radius: 30px;
+            color: inherit;
+            font-weight: 600;
+            position: relative;
+            border: 1px solid var(--color-secondary);
             display: flex;
-            justify-content: flex-start;
+            align-self: flex-end;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            background-color: transparent;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all .4s ease-in-out;
+            
+            .btn-text{
+                font-family: inherit;
+                padding: 0 2rem;
+                color: var(--color-white);
+            }
+            .btn-icon{
+                background-color: var(--color-secondary);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                padding: 1rem;
+            }
+            &:hover{
+                background-color: var(--color-secondary);
+                transform: scale(0.98);
+            }
         }
     }
 }

@@ -542,13 +542,13 @@ section {
 }
 .portfolios .portfolio-item .hover-items h1 {
   font-size: 3rem;
-  color: var(--color-white);
+  color: #FFFFFF;
   font-weight: 1000;
   padding: 2rem 0;
 }
 .portfolios .portfolio-item .hover-items h3 {
   font-size: 1.5rem;
-  color: var(--color-white);
+  color: #FFFFFF;
   margin-bottom: 1.5rem;
 }
 .portfolios .portfolio-item .hover-items .icons {
@@ -787,8 +787,38 @@ section {
   margin-left: 1.5rem;
 }
 .contact-content-con .right-contact .submit-btn {
+  border-radius: 30px;
+  color: inherit;
+  font-weight: 600;
+  position: relative;
+  border: 1px solid var(--color-secondary);
   display: flex;
-  justify-content: flex-start;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.contact-content-con .right-contact .submit-btn .btn-text {
+  font-family: inherit;
+  padding: 0 2rem;
+  color: var(--color-white);
+}
+.contact-content-con .right-contact .submit-btn .btn-icon {
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.contact-content-con .right-contact .submit-btn:hover {
+  background-color: var(--color-secondary);
+  transform: scale(0.98);
 }
 
 /*Independed components*/
@@ -1013,6 +1043,9 @@ section {
   }
   .main-title-art h2 .bg-text {
     font-size: 5rem;
+  }
+  .header-content .left-header .image img {
+    filter: none;
   }
 }
 @media screen and (max-width: 970px) {
