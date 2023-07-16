@@ -131,6 +131,7 @@
 
     .contact-content-con{
         flex-direction: column;
+        padding-bottom: 6rem;
         .right-contact{
             margin-left: 0;
             margin-top: 2.5rem;
@@ -244,12 +245,14 @@
     .contact-content-con{
         .left-contact{
             p{
-                font-size: 0.8rem;
+                font-size: 0.9rem;
             }
             .contact-info{
-                p{
-                    font-size: 0.8rem;
-                }
+                font-size: 0.9rem !important;
+            }
+
+            .contact-icon{
+                display: none;
             }
         }
     }
