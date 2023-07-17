@@ -897,6 +897,12 @@ section {
 }
 
 @media screen and (max-width: 800px) {
+  header .right-header {
+    padding: 0 !important;
+  }
+  .right-header {
+    margin: 0 auto !important;
+  }
   .about-shape {
     display: none;
   }
@@ -1058,10 +1064,11 @@ section {
     padding: 0;
   }
   header .right-header {
-    padding: 4rem !important;
+    padding: 0 !important;
   }
   .header-content .left-header .image img {
     filter: none;
+    padding-top: 3rem;
   }
   .header-content {
     grid-template-columns: 1fr;
@@ -1073,7 +1080,7 @@ section {
   .right-header {
     grid-row: 1;
     width: 100%;
-    margin: 0 auto;
+    margin: 2rem 2rem;
   }
   .right-header .name {
     font-size: 2rem !important;
