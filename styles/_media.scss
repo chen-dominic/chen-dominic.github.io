@@ -102,40 +102,16 @@
 
 }
 
-@media screen and (max-width: 1432px) {
+@media screen and (max-width: 1600px) {
     header{
         padding: 0 !important;
     }
     .section{
         padding: 7rem 11rem;
     }
-    .art-container{
-        grid-template-columns: 3fr;
-        .image-container{
-            gap: 5px;
-            padding: 0;
-            padding-bottom: 10rem;
-            .image{
-                height: 220px;
-                width: 220px;
-                border: none;
-                box-shadow: none;
-            }
-        }
+}
 
-        .popup-image{
-            span{
-                top: 1%;
-                left: 50%;
-                font-size: 60px;
-            }
-            img{
-                top: 20%;
-                border: none;
-                width: 100%;
-            }
-        }
-    }
+@media screen and (max-width: 1432px) {
 
     .contact-content-con{
         flex-direction: column;
@@ -156,6 +132,35 @@
 }
 
 @media screen and (max-width: 1330px){
+
+    .art-container{
+        grid-template-columns: 3fr;
+        .image-container{
+            gap: 5px;
+            padding: 0;
+            padding-bottom: 10rem;
+            .image{
+                height: 220px;
+                width: 220px;
+                //border: none;
+                //box-shadow: none;
+            }
+        }
+
+        .popup-image{
+            span{
+                top: 1%;
+                left: 50%;
+                font-size: 60px;
+            }
+            img{
+                top: 20%;
+                border: none;
+                width: 100%;
+            }
+        }
+    }
+
     .about-container{
         grid-template-columns: 1fr;
         .right-about{
