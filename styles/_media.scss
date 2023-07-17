@@ -209,7 +209,12 @@
             .image{
                 img{
                     filter: none;
-                    padding-top: 3rem;
+                    padding-top: 1rem;
+                    scale: 0.9;
+                    &:hover{
+
+                        box-shadow: none;
+                    }
                 }
             }
         }

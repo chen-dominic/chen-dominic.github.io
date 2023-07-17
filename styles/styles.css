@@ -1071,7 +1071,11 @@ section {
   }
   .header-content .left-header .image img {
     filter: none;
-    padding-top: 3rem;
+    padding-top: 1rem;
+    scale: 0.9;
+  }
+  .header-content .left-header .image img:hover {
+    box-shadow: none;
   }
   .header-content {
     grid-template-columns: 1fr;
