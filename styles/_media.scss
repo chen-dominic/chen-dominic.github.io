@@ -212,8 +212,7 @@
                     padding-top: 1rem;
                     scale: 0.9;
                     &:hover{
-
-                        box-shadow: none;
+                        filter: saturate(100%)
                     }
                 }
             }
