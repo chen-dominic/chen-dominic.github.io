@@ -24,7 +24,7 @@
 }
 
 .light-mode {
-  --color-primary: #cacad8;
+  --color-primary: #FFFF;
   --color-secondary: #626597;
   --color-off-secondary-1: #5d5e9c;
   --color-off-secondary-2: #7877c7;
@@ -786,6 +786,11 @@ section {
 .contact-content-con .right-contact .i-c-2 :last-child {
   margin-left: 1.5rem;
 }
+.contact-content-con .right-contact .error-msg {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(131, 85, 85);
+}
 .contact-content-con .right-contact .submit-btn {
   border-radius: 30px;
   color: inherit;
@@ -1016,7 +1021,7 @@ section {
     margin-top: 1.5rem;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1330px) {
   .about-container {
     grid-template-columns: 1fr;
   }
@@ -1044,9 +1049,6 @@ section {
   .main-title-art h2 .bg-text {
     font-size: 5rem;
   }
-  .header-content .left-header .image img {
-    filter: none;
-  }
 }
 @media screen and (max-width: 970px) {
   .section {
@@ -1056,7 +1058,10 @@ section {
     padding: 0;
   }
   header .right-header {
-    padding: 0 !important;
+    padding: 4rem !important;
+  }
+  .header-content .left-header .image img {
+    filter: none;
   }
   .header-content {
     grid-template-columns: 1fr;

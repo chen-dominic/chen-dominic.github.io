@@ -25,7 +25,7 @@
 }
 
 .light-mode{
-    --color-primary: #cacad8;
+    --color-primary: #FFFF;
     --color-secondary: #626597;
     --color-off-secondary-1: #5d5e9c;
     --color-off-secondary-2: #7877c7;
@@ -834,6 +834,14 @@ section{
                 margin-left: 1.5rem;
             }
         }
+        .error-msg{
+            font-size: 1rem;
+            font-weight: 300;
+            color: rgb(131, 85, 85);
+            
+        }
+
+
         .submit-btn{
 
             border-radius: 30px;
