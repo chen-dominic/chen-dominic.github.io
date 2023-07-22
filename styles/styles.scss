@@ -130,7 +130,7 @@ section{
         background-color: var(--color-secondary) !important;
         transition: all .5s ease-in-out;
         i{
-            color: var(--color-white) !important;
+            color: #FFFF !important;
         }
     }
     .control{
@@ -280,7 +280,7 @@ section{
                 transition: all .4s ease-in-out;
                 i{
                     font-size: 1.5rem;
-                    color: var(--color-white);
+                    color: #FFFF;
                     margin: 0 1rem;
                     transition: all .4s ease-in-out;
                 }
@@ -874,6 +874,7 @@ section{
                 justify-content: center;
                 border-radius: 50%;
                 padding: 1rem;
+                color: white;
             }
             &:hover{
                 background-color: var(--color-secondary);
@@ -909,6 +910,7 @@ section{
         justify-content: center;
         border-radius: 50%;
         padding: 1rem;
+        color: white;
     }
     &::before{
         content: '';

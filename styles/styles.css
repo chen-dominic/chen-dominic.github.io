@@ -130,7 +130,7 @@ section {
   transition: all 0.5s ease-in-out;
 }
 .controls .active-btn i {
-  color: var(--color-white) !important;
+  color: white !important;
 }
 .controls .control {
   padding: 1rem;
@@ -266,7 +266,7 @@ section {
 }
 .header-content .right-header .icons .icon i {
   font-size: 1.5rem;
-  color: var(--color-white);
+  color: white;
   margin: 0 1rem;
   transition: all 0.4s ease-in-out;
 }
@@ -822,6 +822,7 @@ section {
   justify-content: center;
   border-radius: 50%;
   padding: 1rem;
+  color: white;
 }
 .contact-content-con .right-contact .submit-btn:hover {
   background-color: var(--color-secondary);
@@ -856,6 +857,7 @@ section {
   justify-content: center;
   border-radius: 50%;
   padding: 1rem;
+  color: white;
 }
 .main-btn::before {
   content: "";
