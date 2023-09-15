@@ -828,6 +828,21 @@ section {
   background-color: var(--color-secondary);
   transform: scale(0.98);
 }
+.contact-content-con .right-contact .dance-con {
+  display: flex;
+}
+.contact-content-con .right-contact .dance-con .minion-dancer, .contact-content-con .right-contact .dance-con .minion-dancer-2 {
+  flex: 1;
+  width: 200px;
+  margin-left: 7rem;
+  transition: all 2s ease-in-out;
+  filter: brightness(0.8);
+}
+.contact-content-con .right-contact .dance-con .minion-dancer:hover, .contact-content-con .right-contact .dance-con .minion-dancer-2:hover {
+  transform: scale(0.7);
+  opacity: 0.4;
+  filter: blur(1);
+}
 
 /*Independed components*/
 .btn-con {
@@ -1000,6 +1015,14 @@ section {
   .contact-content-con .right-contact {
     margin-left: 0;
     margin-top: 2.5rem;
+  }
+  .contact-content-con .right-contact .minion-dancer {
+    width: 250px;
+    margin-left: 25%;
+    margin-top: 3rem;
+  }
+  .contact-content-con .right-contact .minion-dancer-2 {
+    display: none;
   }
   .contact-content-con .right-contact .i-c-2 {
     flex-direction: column;
