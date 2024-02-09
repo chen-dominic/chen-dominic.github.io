@@ -543,10 +543,12 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolios .portfolio-item .hover-items h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #FFFFFF;
-  font-weight: 1000;
-  padding: 2rem 0;
+  font-weight: 600;
+  overflow: wrap;
+  text-align: center;
+  padding: 1rem 0;
 }
 .portfolios .portfolio-item .hover-items h3 {
   font-size: 1.5rem;
